@@ -31,20 +31,20 @@ Digital Speech Processing HW1 Implementing Discrete Hidden Markov Model
 
 #### Input
 1. Number of iterations
-2. Initial model (model_init.txt)
-3. Observation sequences (train_seq_01~05.txt)
+2. Initial model (* `model_init.txt`)
+3. Observation sequences (* `train_seq_01~05.txt`)
 
 #### Output
-Five files of parameters for 5 models, each containing λ = (A, B, π) (e.g., model_01~05.txt)
+Five files of parameters for 5 models, each containing λ = (A, B, π) (* `model_01~05.txt`)
 
 ### Testing
 
 #### Input
-1. A file of paths to the models trained in the previous step (modellist.txt)
-2. Observation sequences (test_seq.txt)
+1. A file of paths to the models trained in the previous step (* `modellist.txt`)
+2. Observation sequences (* `test_seq.txt`)
 
 #### Output
-Best answer labels and P(O | λ) (e.g., result.txt)
+Best answer labels and P(O | λ) (* `result.txt`)
 
 ## Training Details
 
